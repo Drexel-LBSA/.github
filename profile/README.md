@@ -15,8 +15,7 @@ To initialize a set of code into a GitHub repository,
   git commit -m "first commit"
   git branch -M main
   git remote add origin https://github.com/Drexel-LBSA/test.git
-  git push -u origin main
-</code>
+  git push -u origin main</code>
 
 #### Transfering Repositories from EXISTING GitHub repos
 To transfer repositories into the group organization you can use the "Transfer Repository" setting in your own repository (Transfer to the group @Drexel-LBSA). Alternatively, if you're transfering a repo from outside of Github, you can do the following:
@@ -25,5 +24,4 @@ To transfer repositories into the group organization you can use the "Transfer R
   git remote rename origin {origin name}
   git remote add origin https://github.com/{your username}/{name of repo}.git
   git push origin master
-  git remote rm {original location}
-</code>
+  git remote rm {original location}</code>

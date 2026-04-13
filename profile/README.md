@@ -7,8 +7,7 @@ To initialize a set of code into a GitHub repository,
 1. Go to the "Repositories" page of Drexel-LBSA
 2. Click "Create New Repository"
 3. Fill out details, such as name of the repo and visability settings
-4. Use command line to create local repository and push to the remote one you've just created!
-<code>
+4. Use command line to create local repository and push to the remote one you've just created!<code>
   cd {wherever the code is stored}
   git init
   git config --global user.name "{your github username}"

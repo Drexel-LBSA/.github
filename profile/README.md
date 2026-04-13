@@ -14,7 +14,7 @@ To initialize a set of code into a GitHub repository,
   git add .
   git commit -m "first commit"
   git branch -M main
-  git remote add origin https://github.com/Drexel-LBSA/test.git
+  git remote add origin https://github.com/Drexel-LBSA/{name of repo on github}.git
   git push -u origin main</code>
 
 #### Transfering Repositories from EXISTING GitHub repos
